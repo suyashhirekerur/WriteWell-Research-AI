@@ -1,0 +1,22 @@
+# ── WriteWell Research AI — Streamlit Configuration ───────────────────────────
+
+[server]
+port = 8501
+headless = true          # Prevents auto-opening browser on every run
+enableCORS = false
+enableXsrfProtection = true
+
+[browser]
+gatherUsageStats = false  # Disable Streamlit telemetry
+
+[theme]
+# Light mode palette (matches the app's gradient blues)
+primaryColor        = "#1e3c72"
+backgroundColor     = "#f0f4ff"
+secondaryBackgroundColor = "#eef2ff"
+textColor           = "#1a1a2e"
+font                = "sans serif"
+
+[runner]
+# Avoid re-running the full script on every widget interaction for large files
+fastReruns = true

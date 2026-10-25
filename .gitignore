@@ -12,7 +12,8 @@ __pycache__/
 *.pyd
 
 # ── Streamlit ─────────────────────────────────────────────────────────────────
-.streamlit/
+# Track config.toml but NEVER commit secrets (API keys, passwords)
+.streamlit/secrets.toml
 
 # ── Distribution / Build ──────────────────────────────────────────────────────
 dist/
