@@ -1,1 +1,1 @@
-cd "e:\Semester 4\TTL project" ; python -m streamlit run app.py
+cd "<Your Folder Path>" ; python -m streamlit run app.py
