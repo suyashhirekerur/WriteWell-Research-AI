@@ -1,4 +1,4 @@
-# 🔬 PaperIQ — AI Research Paper Analyzer
+# 🔬 WriteWell Research AI — AI Research Paper Analyzer
 
 An AI-powered Streamlit application that reads research papers, analyzes writing quality, extracts sections, generates summaries, and produces downloadable PDF reports.
 
