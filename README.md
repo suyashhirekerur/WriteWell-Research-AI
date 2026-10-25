@@ -53,17 +53,16 @@ Open your browser at `http://localhost:8501`
 ## 🗂️ Project Structure
 
 ```
-PaperIQ/
-├── app.py                    # Main Streamlit application
+WriteWell_Research_AI/
+├── app.py                  # Main Streamlit application
+├── analyzer.py             # Writing quality metrics
+├── pdf_extractor.py        # PDF / DOCX / TXT extraction
+├── text_cleaner.py         # Text preprocessing
+├── section_detector.py     # Academic section detection
+├── summarizer.py           # Extractive summarization
+├── report_generator.py     # PDF report export
 ├── requirements.txt
-├── README.md
-└── modules/
-    ├── pdf_extractor.py      # PDF / DOCX / TXT extraction
-    ├── text_cleaner.py       # Text preprocessing
-    ├── section_detector.py   # Academic section detection
-    ├── summarizer.py         # Extractive summarization
-    ├── analyzer.py           # Writing quality metrics
-    └── report_generator.py   # PDF report export
+└── README.md
 ```
 
 ---
